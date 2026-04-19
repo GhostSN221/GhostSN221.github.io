@@ -1,6 +1,6 @@
 # 🚀 mamadousow.dev — Personal Portfolio
 
-> **Senior Site Reliability Engineer · Platform Engineer · Cloud-Native Infrastructure**  
+> **Platform | Site Reliability Engineer · Cloud-Native Infrastructure**  
 > Live at → [ghostsn221.github.io](https://ghostsn221.github.io) · Built with vanilla HTML/CSS/JS · Deployed via GitHub Pages
 
 ---
