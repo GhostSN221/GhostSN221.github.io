@@ -451,6 +451,27 @@
         <span class="tag tag-orange">Ceph RBD/CephFS</span><span class="tag tag-orange">HP ProLiant</span><span class="tag tag-orange">Bare-metal</span><span class="tag tag-orange">Docker</span><span class="tag tag-orange">Containerd</span>
       </div>
     </div>
+    <div class="skill-card">
+      <div class="skill-icon">🔗</div>
+      <div class="skill-name">Service Mesh &amp; API Gateway</div>
+      <div class="skill-tags">
+        <span class="tag tag-cyan">Istio</span><span class="tag tag-cyan">Traefik</span><span class="tag tag-cyan">Kong</span><span class="tag tag-cyan">NGINX</span><span class="tag tag-cyan">Ingress</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">📦</div>
+      <div class="skill-name">Registries &amp; Artifact Management</div>
+      <div class="skill-tags">
+        <span class="tag tag-blue">Harbor</span><span class="tag tag-blue">Trivy</span><span class="tag tag-blue">Docker Hub</span><span class="tag tag-blue">GitLab Registry</span><span class="tag tag-blue">Nexus</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🗄</div>
+      <div class="skill-name">Databases &amp; Messaging</div>
+      <div class="skill-tags">
+        <span class="tag tag-green">PostgreSQL</span><span class="tag tag-green">MySQL</span><span class="tag tag-green">Redis</span><span class="tag tag-green">Kafka</span><span class="tag tag-green">RabbitMQ</span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -471,14 +492,15 @@
       </div>
       <div class="exp-body">
         <div class="exp-bullets">
-          <div class="exp-bullet"><strong>Bare-metal private cloud</strong> deployed across 2 server racks using Kayobe IaC + distributed storage — full private cloud from scratch, zero managed cloud dependency.</div>
-          <div class="exp-bullet"><strong>CaaS Self-Service Portal</strong> enabling engineers to provision K8s clusters on private cloud via Cluster API — zero manual bootstrapping, full lifecycle management (create, scale, upgrade, decommission).</div>
-          <div class="exp-bullet"><strong>Multi-cluster GitOps with ArgoCD Fleet</strong> managing dev/staging/prod environments from a single Git source of truth — zero configuration drift, instant rollback capability.</div>
-          <div class="exp-bullet"><strong>vCluster tenant isolation</strong> — Kubernetes-in-Kubernetes virtual clusters for engineering teams, reducing platform team toil by ~50%.</div>
-          <div class="exp-bullet"><strong>SIEM/SOC automation platform</strong> with automated threat detection, rule tuning, alerting pipelines and incident response playbooks.</div>
-          <div class="exp-bullet"><strong>SLO/SLA-driven observability</strong> (Prometheus + Grafana + Loki + OpenTelemetry) — cut MTTD by ~40%, reduced major incidents by 35%.</div>
-          <div class="exp-bullet"><strong>End-to-end CI/CD automation</strong> (GitHub Actions + Terraform + ArgoCD) — ~40% reduction in manual operations.</div>
-          <div class="exp-bullet"><strong>Security hardening</strong> — IAM least-privilege, VPC micro-segmentation, Calico network policy isolation, automated vulnerability scanning.</div>
+          <div class="exp-bullet"><strong>Designed and deployed a production-grade private cloud</strong> from scratch using Infrastructure as Code (Kayobe + Ansible) — compute, networking, distributed storage, fully automated, zero managed cloud dependency.</div>
+          <div class="exp-bullet"><strong>CaaS Self-Service Portal</strong> enabling engineers to provision Kubernetes clusters on private cloud via Cluster API — full lifecycle management (create, scale, upgrade, decommission), cutting provisioning time from days to minutes.</div>
+          <div class="exp-bullet"><strong>Multi-cluster GitOps with ArgoCD Fleet</strong> managing dev/staging/prod environments from a single Git source of truth — zero configuration drift, instant rollback capability across all clusters.</div>
+          <div class="exp-bullet"><strong>vCluster tenant isolation</strong> — Kubernetes-in-Kubernetes virtual clusters for engineering teams, enabling self-service namespaces and reducing platform team toil by ~50%.</div>
+          <div class="exp-bullet"><strong>SIEM/SOC automation platform</strong> with automated threat detection, rule tuning, alerting pipelines, and incident response playbooks covering the full infrastructure stack.</div>
+          <div class="exp-bullet"><strong>SLO/SLA-driven observability stack</strong> (Prometheus + Grafana + Loki + OpenTelemetry) — reduced MTTD by ~40% and major incidents by 35%.</div>
+          <div class="exp-bullet"><strong>End-to-end CI/CD automation</strong> (GitHub Actions + Terraform + ArgoCD) across 10+ microservices — ~40% reduction in manual operations and deployment failures.</div>
+          <div class="exp-bullet"><strong>Security hardening at every layer</strong> — IAM least-privilege, VPC micro-segmentation, Calico network policy enforcement, Harbor image scanning, and automated vulnerability reporting.</div>
+          <div class="exp-bullet"><strong>Service Mesh implementation with Istio</strong> — mTLS between all services, traffic shaping, circuit breaking, and distributed tracing via OpenTelemetry.</div>
         </div>
       </div>
     </div>
@@ -491,10 +513,12 @@
       </div>
       <div class="exp-body">
         <div class="exp-bullets">
-          <div class="exp-bullet">Managed Windows Server + Linux fleet — Active Directory, DNS, DHCP — for 100+ users with zero tolerance for downtime.</div>
-          <div class="exp-bullet"><strong>Deployed centralized monitoring</strong> (Prometheus + Grafana + Zabbix) — proactive detection before guest/staff impact.</div>
-          <div class="exp-bullet"><strong>Reduced recurring network incidents by 60%</strong> through VLAN redesign, firewall auditing, IPSec VPN hardening.</div>
-          <div class="exp-bullet">Implemented layered security: Fortinet policies, VLAN segmentation, automated daily backups with tested recovery.</div>
+          <div class="exp-bullet"><strong>Administered a mixed Windows Server / Linux environment</strong> — Active Directory, DNS, DHCP — for 100+ users across hotel operations with zero tolerance for downtime.</div>
+          <div class="exp-bullet"><strong>Deployed centralized monitoring</strong> (Prometheus + Grafana + Zabbix) enabling proactive anomaly detection before any guest or staff impact.</div>
+          <div class="exp-bullet"><strong>Reduced recurring network incidents by 60%</strong> through full VLAN redesign, firewall policy auditing, and IPSec VPN hardening.</div>
+          <div class="exp-bullet"><strong>Implemented multi-layer security</strong> — Fortinet firewall policies, VLAN segmentation, automated daily backups with regularly tested disaster recovery procedures.</div>
+          <div class="exp-bullet"><strong>Automated infrastructure provisioning</strong> with Ansible playbooks — reduced server setup time by 70% and eliminated configuration inconsistencies across sites.</div>
+          <div class="exp-bullet">Managed SSL certificates, VPN access, and Wi-Fi infrastructure (Cisco Meraki) across all hotel floors and conference rooms.</div>
         </div>
       </div>
     </div>
@@ -507,9 +531,10 @@
       </div>
       <div class="exp-body">
         <div class="exp-bullets">
-          <div class="exp-bullet">Configured <strong>Cisco, Huawei, and Juniper</strong> environments: OSPF/BGP, STP, 802.1X port authentication.</div>
-          <div class="exp-bullet">Deployed <strong>IDS/IPS solutions</strong> (Snort/Suricata) and automated vulnerability scans (Nessus/OpenVAS).</div>
-          <div class="exp-bullet">Contributed to <strong>network redesign</strong> replacing flat topologies with segmented 3-tier architecture.</div>
+          <div class="exp-bullet"><strong>Configured multi-vendor network environments</strong> (Cisco, Huawei, Juniper) — OSPF/BGP routing, STP loop prevention, 802.1X port-based authentication.</div>
+          <div class="exp-bullet"><strong>Deployed IDS/IPS solutions</strong> (Snort/Suricata) with custom detection rules, and automated vulnerability scanning pipelines (Nessus/OpenVAS).</div>
+          <div class="exp-bullet"><strong>Led network redesign initiative</strong> — replaced flat legacy topologies with a segmented 3-tier architecture, improving security isolation and traffic management.</div>
+          <div class="exp-bullet">Wrote technical documentation and runbooks for network operations, reducing onboarding time for new engineers.</div>
         </div>
       </div>
     </div>
@@ -522,9 +547,10 @@
       </div>
       <div class="exp-body">
         <div class="exp-bullets">
-          <div class="exp-bullet"><strong>Level 2 support for 500+ government employees</strong> — VPN, DNS, Active Directory incidents within SLA.</div>
-          <div class="exp-bullet">Automated recurring tasks (PowerShell/Bash), saving ~5 hours/week of manual effort.</div>
-          <div class="exp-bullet">Built internal knowledge base reducing ticket resolution time by 20%.</div>
+          <div class="exp-bullet"><strong>Level 2 support for 500+ government employees</strong> — resolved VPN, DNS, and Active Directory incidents within SLA across multiple ministry sites.</div>
+          <div class="exp-bullet"><strong>Automated recurring administrative tasks</strong> (PowerShell + Bash scripts), saving ~5 hours/week of manual effort and reducing human error.</div>
+          <div class="exp-bullet"><strong>Built an internal knowledge base</strong> with documented runbooks and troubleshooting guides — reduced average ticket resolution time by 20%.</div>
+          <div class="exp-bullet">Assisted in patch management and OS hardening across a fleet of 300+ Windows workstations and servers.</div>
         </div>
       </div>
     </div>
@@ -548,7 +574,7 @@
     <div class="project-card blue">
       <div class="project-header"><div class="project-icon">🏗</div><div class="project-links"><span class="project-link" style="cursor:default;opacity:0.5">🔒 Confidential</span></div></div>
       <div class="project-name">Private Cloud Datacenter IaC</div>
-      <div class="project-desc">Production bare-metal private cloud across 2 server racks using Infrastructure as Code. Full lifecycle as code: compute, networking, block storage, image service.</div>
+      <div class="project-desc">Production-grade private cloud built entirely with Infrastructure as Code. Full lifecycle managed as code: compute, networking, block storage, and image service — zero manual provisioning.</div>
       <div class="project-stack"><span class="tag tag-orange">Kayobe</span><span class="tag tag-orange">Ansible</span><span class="tag tag-blue">Private Cloud</span><span class="tag tag-green">Distributed Storage</span></div>
     </div>
     <div class="project-card green">
@@ -586,6 +612,24 @@
       <div class="project-name">Kubernetes Tenant Isolation (vCluster)</div>
       <div class="project-desc">vCluster deployment for K8s-in-K8s tenant isolation — virtual clusters with full API compatibility, minimal overhead, self-service namespaces.</div>
       <div class="project-stack"><span class="tag tag-cyan">vCluster</span><span class="tag tag-cyan">Kubernetes</span><span class="tag tag-cyan">Helm</span><span class="tag tag-blue">Multi-tenancy</span></div>
+    </div>
+    <div class="project-card green">
+      <div class="project-header"><div class="project-icon">🔭</div><div class="project-links"><span class="project-link" style="cursor:default;opacity:0.5">🔒 Confidential</span></div></div>
+      <div class="project-name">Full-Stack Observability Platform</div>
+      <div class="project-desc">End-to-end observability stack deployed on Kubernetes — metrics (Prometheus + Thanos), logs (Loki + Promtail), traces (Tempo + OpenTelemetry), dashboards (Grafana). SLO/SLA alerting with PagerDuty integration.</div>
+      <div class="project-stack"><span class="tag tag-green">Prometheus</span><span class="tag tag-green">Grafana</span><span class="tag tag-green">Loki</span><span class="tag tag-green">Tempo</span><span class="tag tag-cyan">OpenTelemetry</span></div>
+    </div>
+    <div class="project-card blue">
+      <div class="project-header"><div class="project-icon">🌐</div><div class="project-links"><span class="project-link" style="cursor:default;opacity:0.5">🔒 Confidential</span></div></div>
+      <div class="project-name">Service Mesh with Istio</div>
+      <div class="project-desc">Production Istio service mesh — mutual TLS (mTLS) between all microservices, traffic shaping, canary deployments, circuit breaking, and distributed tracing. Integrated with Kiali for topology visualization.</div>
+      <div class="project-stack"><span class="tag tag-cyan">Istio</span><span class="tag tag-cyan">Kubernetes</span><span class="tag tag-green">mTLS</span><span class="tag tag-blue">Kiali</span><span class="tag tag-green">OpenTelemetry</span></div>
+    </div>
+    <div class="project-card orange">
+      <div class="project-header"><div class="project-icon">🤖</div><div class="project-links"><span class="project-link" style="cursor:default;opacity:0.5">🔒 Confidential</span></div></div>
+      <div class="project-name">Network Automation Lab</div>
+      <div class="project-desc">Python + Ansible-based network automation framework for multi-vendor environments (Cisco, Juniper). Automated config backup, compliance checks, VLAN provisioning, and change management with audit trails.</div>
+      <div class="project-stack"><span class="tag tag-orange">Python</span><span class="tag tag-orange">Ansible</span><span class="tag tag-green">Netmiko</span><span class="tag tag-green">NAPALM</span><span class="tag tag-blue">Nornir</span></div>
     </div>
   </div>
 </section>
