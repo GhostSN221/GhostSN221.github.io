@@ -58,10 +58,10 @@ Enable GitHub Pages: **Settings → Pages → Branch: main → / (root) → Save
 
 ## 📬 Contact
 
-- 🌐 Portfolio → [ghostsn221.github.io](https://ghostsn221.github.io)
+- 🌐 Portfolio → [mamadousow.github.io](https://mamadousow.github.io)
 - 💼 LinkedIn → [linkedin.com/in/mamadou-sow](linkedin.com/in/mamadou-mouhamed-sow-a55078243)
-- 🐙 GitHub → [github.com/MouhmedSow](https://github.com/GhostSN221)
-- ⚙ GitLab → [gitlab.com/MouhmedSow](https://gitlab.com/GhostSN221)
+- 🐙 GitHub → [github.com/GhostSN221](https://github.com/GhostSN221)
+- ⚙ GitLab → [gitlab.com/GhostSN221](https://gitlab.com/GhostSN221)
 
 ---
 
